@@ -2,7 +2,7 @@ const express=require('express')
 const app=express();
 
 const userRoutes=require('./routes/user')
-const profileRoutes=require('./routes/Profile')
+const profileRoutes=require('./routes/profile')
 const paymentRoutes=require('./routes/Payments')
 const courseRoutes=require('./routes/Course')
 const contactRoutes=require('./routes/Contact')
@@ -23,7 +23,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(
     cors({
-        origin:"http://localhost:3000"  ///koi frontend comming from 3000 port should be entertained
+        origin:`${process.env.HOST}`  ///koi frontend comming from 3000 port should be entertained
     , credentials:true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     })
