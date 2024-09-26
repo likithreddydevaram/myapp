@@ -1,7 +1,4 @@
 import React from "react"
-
-import Footer from "../components/common/Footer"
-
 import ContactDetails from "../components/core/ContactUsPage/ContactDetails"
 import ContactForm from "../components/core/ContactUsPage/ContactForm"
 
@@ -26,7 +23,7 @@ const Contact = () => {
         </h1>
         
       </div>
-      <Footer />
+      
     </div>
   )
 }

@@ -12,7 +12,6 @@ import HighlightText from "../components/core/Homepage/HighlightText"
 import InstructorSection from "../components/core/Homepage/InstructorSection"
 import LearningLanguageSection from "../components/core/Homepage/LearningLanguageSection"
 import TimelineSection from "../components/core/Homepage/TimeLine"
-import Footer from "../components/common/Footer"
 
 function Home() {
   return (
@@ -180,16 +179,11 @@ function Home() {
         {/* Become a instructor section */}
         <InstructorSection />
 
-        {/* Reviws from Other Learner */}
-        <h1 className="text-center text-4xl font-semibold mt-8">
-          Reviews from other learners
-        </h1>
        
        
       </div>
 
-      {/* Footer */}
-      <Footer />
+
     </div>
   )
 }
