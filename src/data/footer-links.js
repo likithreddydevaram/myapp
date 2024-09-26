@@ -1,3 +1,5 @@
+
+const h="https://myapp-indol-six.vercel.app/catalog"
 export const FooterLink2 = [
     {
       title: "Subjects",
@@ -32,8 +34,8 @@ export const FooterLink2 = [
         { title: "Java", link: "/java" },
         { title: "JavaScript", link: "/javascript" },
         { title: "Kotlin", link: "/kotlin" },
-        { title: "PHP", link: "/php" },
-        { title: "Python", link: "/python" },
+        { title: "PHP", link: `${h}/php` },
+        { title: "Python", link: `${h}/python` },
         { title: "R", link: "/r" },
         { title: "Ruby", link: "/ruby" },
         { title: "SQL", link: "/sql" },
