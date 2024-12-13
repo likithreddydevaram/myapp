@@ -84,6 +84,7 @@ export const fetchCourseCategories = async () => {
 
 // add the course details
 export const addCourseDetails = async (data, token) => {
+  console.log(data);
   let result = null
   const toastId = toast.loading("Loading...")
   try {
